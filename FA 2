@@ -1,0 +1,8 @@
+# Function to calculate delivery fee
+def calculate_delivery_fee(distance, rate):
+    fee = distance * rate
+    return fee
+
+# Main program
+distance = float(input("Enter distance in kilometers: "))
+rate = float(input("Enter rate per kilometer (₱): "))
