@@ -8,10 +8,10 @@ for i in range(5):
 print("\nYou can now update the 2nd and 5th destinations.")
 
 new_second = input("Enter new destination for position 2: ")
-destinations[1] = new_second   # index 1 → second element
+destinations[1] = new_second  
 
 new_fifth = input("Enter new destination for position 5: ")
-destinations[4] = new_fifth   # index 4 → fifth element
+destinations[4] = new_fifth  
 
 print("\nUpdated Travel Itinerary:")
 for i in range(len(destinations)):
